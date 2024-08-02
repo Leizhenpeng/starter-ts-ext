@@ -38,6 +38,7 @@
   ],
   "scripts": {
     "build": "tsup",
+    "open":"npx npm-open",
     "dev": "tsup --watch",
     "lint": "eslint .",
     "prepublishOnly": "nr build",
